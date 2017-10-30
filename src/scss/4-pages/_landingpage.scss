@@ -1,0 +1,39 @@
+.landing-page{
+    width: 100vw;
+    min-height: 100vh;
+    font-family: "Korpus-grotesk-B",Arial,sans-serif;
+    
+    .company-logo{
+        font-weight: 400;
+        line-height: 1.7;
+        font-size: .7rem;
+        letter-spacing: .16em;
+        font-size: 2.2rem;
+        letter-spacing: .12em;
+        text-align: -webkit-center;  
+    }
+    .company{
+        display: flex;
+
+        .company__store-details{
+            width: 90%;
+            margin-top: 120px;
+            line-height: 1.111;
+            font-size: 2.66rem;
+            letter-spacing: .03em;
+            margin-bottom: 160px;
+            align-self: start;
+        }
+        .company__address{
+            font-weight: 400;
+            line-height: 1.7;
+            font-size: .7rem;
+            letter-spacing: .16em;
+            //text-align: -webkit-center;
+            align-self: end;
+            
+        }
+
+    }
+    
+}
